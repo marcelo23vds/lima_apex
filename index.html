@@ -1,37 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>APEX LEGENDS</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>APEX LEGENDS</title>
 </head>
-<body class="m-0 p-0">
-    <img src="./img/background.svg" alt="mundo de apex" class="w-full h-screen object-cover">
-    <header class="absolute top-0 left-0">
-        <div class="flex justify-end w-screen gap-3 p-3 pr-5 z-1 bg-[#161616]">
-            <img src="./img/icon-Profile.png" alt="icone perfil">
-            <img src="./img/icon-Help.png" alt="icone ajuda">
-            <img src="./img/icon-EA.png" alt="icone ea">
-        </div>
-        <div class="bg-[#000] h-20 w-[85%] mx-auto">
-            <menu class="text-[#FFF] flex items-center justify-center gap-10 p-4">
-                <img src="./img/logoApex.svg" alt="logo apex" class="h-12">
-                <li>ABOUT</li>
-                <li>MODES</li>
-                <li>SEASON</li>
-                <li>BATTLE PASS</li>
-                <li>NEWS & MEDIA</li>
-                <li>COMMUNITY</li>
-                <li>COMPETE</li>
-                <button class="bg-[#C83C35] p-3 ml-80">DOWNLOAD FOR FREE</button>
-            </menu>
-        </div>
-    </header>
-    <main>
-        <div></div>
-        <div></div>
-    </main>
+<body class="m-0 p-0 relative">
+
+  <img src="./img/background.svg" alt="mundo de apex" class="w-full h-screen object-cover absolute top-0 left-0 -z-10">
+
+  <header class="absolute top-0 left-0 w-full">
+    <div class="flex justify-end gap-3 p-3 pr-5 bg-[#161616]">
+      <img src="./img/icon-Profile.png" alt="icone perfil">
+      <img src="./img/icon-Help.png" alt="icone ajuda">
+      <img src="./img/icon-EA.png" alt="icone ea">
+    </div>
+    <div class="bg-[#000] h-20 w-[85%] mx-auto">
+      <menu class="text-[#FFF] flex items-center justify-center gap-10 p-4">
+        <img src="./img/logoApex.svg" alt="logo apex" class="h-12">
+        <li>ABOUT</li>
+        <li>MODES</li>
+        <li>SEASON</li>
+        <li>BATTLE PASS</li>
+        <li>NEWS & MEDIA</li>
+        <li>COMMUNITY</li>
+        <li>COMPETE</li>
+        <button class="bg-[#C83C35] p-3 ml-80">DOWNLOAD FOR FREE</button>
+      </menu>
+    </div>
+  </header>
+  <main class="relative w-full h-screen flex items-center px-16 pt-32 text-white">
+
+    <div class="space-y-6 max-w-md z-1">
+      <img src="./img/logoApex.svg" alt="logo apex">
+      <p class="text-sm">
+        For PlayStation® 4, PlayStation 5, Xbox One, Xbox Series X|S, Nintendo Switch, and PC via Origin and Steam.
+      </p>
+      <div class="flex gap-4">
+        <button class="bg-gray-700 px-5 py-2">
+          PLAY FREE NOW
+        </button>
+        <button class="bg-gray-700 px-5 py-2">
+          WATCH THE TRAILER
+        </button>
+      </div>
+    </div>
+
+    <div class="absolute bottom-0 right-0 w-[45%] max-w-[600px]">
+      <img src="./img/logoA.svg" alt="Apex Symbol" class="absolute -z-10 w-full h-auto" />
+      <img src="./img/personagem.svg" alt="Wraith Character" class="relative w-full h-auto" />
+    </div>
+
+  </main>
 </body>
 </html>
