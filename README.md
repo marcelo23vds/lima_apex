@@ -8,11 +8,19 @@ https://www.figma.com/design/Oe7e12n2dj8tIPIDSbIH5I/LIMA-ATIVIDADE-APEX--Copy-?n
 
 ![](./img/preview-desktop.png)
 
-Landing page com tema do jogo Apex Legends, desenvolvido com o framework Tailwind CSS.
+## Tablet
+
+![](./img/preview-tablet.PNG)
+
+## Mobile
+
+![](./img/preview-mobile.PNG)
+
+Landing page com tema do jogo Apex Legends, desenvolvido com o framework Tailwind CSS, página responsiva para desktop, tablet e mobile.
 
 ## Tecnologias
 * HTML
-* TAILWIND CSS
+* Tailwind CSS
 
 ## Autor
 [Marcelo Vieira](<https://www.linkedin.com/in/marcelovieirasilva/>)

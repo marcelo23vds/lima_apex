@@ -5,11 +5,14 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <title>APEX LEGENDS</title>
 </head>
 
-<body class="m-0 p-0">
+<body class="m-0 p-0" style="font-family: Oxanium, sans-serif;">
 
   <img src="./img/background.svg" alt="mundo de apex" class="w-full h-screen object-cover absolute top-0 left-0 -z-10">
 
@@ -22,48 +25,57 @@
     </div>
 
     <div class="h-20 w-[80%] mx-auto -mt-5">
-        <img src="./img/barra-menu.svg" alt="barra personalizada do menu" class="absolute -z-10 w-4/5 h-[100%]">
-        <menu class="text-[#FFF] flex items-center justify-center gap-10 p-4 font-bold whitespace-nowrap pt-7">
-          <img src="./img/logoApex.svg" alt="logo apex" class="h-12">
-          <ul class="hidden 2xl:flex gap-7">
-            <li>ABOUT</li>
-            <li>MODES</li>
-            <li>SEASON</li>
-            <li>BATTLE PASS</li>
-            <li>NEWS & MEDIA</li>
-            <li>COMMUNITY</li>
-            <li>COMPETE</li>
-          </ul>
-          <button class="flex bg-[#C83C35] p-2 font-bold whitespace-nowrap">
-            DOWNLOAD FOR FREE
-          </button>
-          <a href="#">
-            <img class="w-7 2xl:hidden" src="./img/hamburguer.png" alt="menu de hamburguer">
-          </a>
-        </menu>
+      <img src="./img/barra-menu.svg" alt="barra personalizada do menu"
+        class="hidden 2xl:flex absolute -z-10 w-4/5 h-[100%]">
+      <menu class="text-[#FFF] flex items-center justify-between gap-10 p-4 font-bold whitespace-nowrap pt-7">
+        <img src="./img/logoApex.svg" alt="logo apex" class="2xl:ml-10 h-12">
+        <ul class="hidden 2xl:flex gap-7">
+          <li>ABOUT</li>
+          <li>MODES</li>
+          <li>SEASON</li>
+          <li>BATTLE PASS</li>
+          <li>NEWS & MEDIA</li>
+          <li>COMMUNITY</li>
+          <li>COMPETE</li>
+        </ul>
+        <button class="hidden sm:flex bg-[#C83C35] p-2 font-bold whitespace-nowrap">
+          DOWNLOAD FOR FREE
+        </button>
+        <a href="#">
+          <img class="w-7 2xl:hidden" src="./img/hamburguer.png" alt="menu de hamburguer">
+        </a>
+      </menu>
     </div>
 
   </header>
 
-  <main class="relative w-full h-screen flex items-center px-16 text-white">
+  <main class="relative w-full h-screen flex items-center text-white lg:px-16">
 
-    <div class="space-y-6 max-w-3xl z-10 ml-[10%]">
-      <img src="./img/logoApex.svg" alt="logo apex">
-      <p class="text-2xl">
+    <div class="mt-[10%] sm:space-y-6 max-w-3xl z-10 ml-[10%]">
+
+      <div class="pr-10 sm:p-0 flex items-center justify-center lg:block">
+        <img src="./img/logoApex.svg" alt="logo apex">
+
+      </div>
+      <p class="hidden md:flex text-2xl">
         For PlayStation® 4, PlayStation 5, Xbox One, Xbox Series X|S, Nintendo Switch, and PC via Origin and Steam.
       </p>
-      <div class="flex gap-4">
-        <button class="px-5 py-2 bg-[#0007] font-bold border-b-4 border-[#FB4F1F]">
+
+      <div class="my-5 pl-[10%] sm:my-0 lg:pl-0 grid-flow-col gap-4 sm:flex">
+        <button class="my-2 sm:my-0 w-60 px-5 py-2 bg-[#0007] font-bold border-b-4 border-b-[#FB4F1F] border-t-2">
           PLAY FREE NOW
         </button>
-        <button class="px-5 py-2 bg-[#0007] font-bold border-b-4 border-[#FB4F1F]">
+        <button class="my-2 sm:my-0 w-60 px-5 py-2 bg-[#0007] font-bold border-b-4 border-b-[#FB4F1F] border-t-2">
           WATCH THE TRAILER
         </button>
       </div>
+
     </div>
 
-    <div class="absolute bottom-0 xl:ml-[40%]">
-      <img src="./img/personagem.svg" alt="personagem" class="hidden md:flex items-center justify-center 2xl:relative" />
+    <div class="absolute bottom-0 lg:ml-[40%]">
+      <img src="./img/logoA.svg" alt="Logo A de Apex" class="mb-20 md:hidden">
+      <img src="./img/personagem.svg" alt="personagem"
+        class="hidden md:flex items-center justify-center 2xl:relative w-[90%]" />
     </div>
 
   </main>
