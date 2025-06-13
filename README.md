@@ -1,5 +1,8 @@
 # APEX LEGENDS
-![](./img/preview.PNG)
+
+## Desktop
+
+![](./img/preview-desktop.PNG)
 
 https://www.figma.com/design/Oe7e12n2dj8tIPIDSbIH5I/LIMA-ATIVIDADE-APEX--Copy-?node-id=0-1&t=qv5k7NJcZvELRqnH-1
 
